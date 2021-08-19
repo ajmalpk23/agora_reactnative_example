@@ -683,6 +683,8 @@ function Home({navigation}) {
   const [ch, setch] = useState();
   console.log(ch);
 
+
+  
   const Chtext = () => {
     setTimeout(async () => {
       await axios
